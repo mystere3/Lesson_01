@@ -1,0 +1,37 @@
+body {
+  background-color: #ADDFF0;
+  margin: 0;
+  margin-top: 60px;
+}
+
+nav {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  //padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+
+}
+
+nav li {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18pt;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  background-color: #1F6278;
+  padding: 10px;
+  margin-bottom: 10px;
+}
