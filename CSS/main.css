@@ -35,3 +35,20 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
 }
+
+nav a {
+  text-decoration: none;
+}
+
+section {
+  margin-top: -40px;
+  padding-top: 40px;
+}
+.current {
+  text-decoration: underline;
+}
+
+
+
+
+

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
     <title></title>
   </head>
@@ -8,7 +9,7 @@
 
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
+        <li class="current"><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#resume">Resume</a></li>
@@ -138,6 +139,10 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </section>
-
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="JS/jquery.nav.js"></script>
+    <script>
+      $('nav').onePageNav();
+    </script>
   </body>
 </html>
