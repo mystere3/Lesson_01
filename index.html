@@ -14,7 +14,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#resume">Resume</a></li>
-        <li><a id="blog-link" href="#blog">Blog</a>
+        <li class="submenu"><a id="blog-link" href="#blog">Blog</a>
           <ul>
             <li><a href="#b1">Blog Post 1</a></li>
             <li><a href="#b1">Blog Post 2</a></li>
@@ -149,10 +149,15 @@
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </section>
 
+    
+
     <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="JS/jquery.nav.js"></script>
     <script>
-      $('nav').onePageNav();
+      $('nav').onePageNav({
+        scrollThreshold: 0.4,
+        navItems: 'a:not(.submenu a)'
+      });
 
       function toggleNav() {
         $('nav ul').slideToggle();
