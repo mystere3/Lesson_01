@@ -1,7 +1,7 @@
 body {
   background-color: #ADDFF0;
   margin: 0;
-  margin-top: 60px;
+  margin-top: 25px;
 }
 
 nav {
@@ -12,6 +12,7 @@ nav {
   left: 0;
   //padding: 20px;
   text-align: center;
+  z-index: 1;
 }
 
 #menu-button {
@@ -70,8 +71,8 @@ nav a {
 }
 
 section {
-  margin-top: -40px;
-  padding-top: 40px;
+  margin-top: -25px;
+  padding-top: 25px;
 }
 .current {
   text-decoration: underline;
