@@ -35,6 +35,9 @@ $(function() {
 
     if (width > 768 && menu.is(':hidden')) {
       menu.removeAttr('style');
+      $("#about").css('padding-top', '25px');
+    } else {
+      $('#about').css('padding-top', '0px');
     }
 
       var homeHeight = $('.home-content').css('height');
